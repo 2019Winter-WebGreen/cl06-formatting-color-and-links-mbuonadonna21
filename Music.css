@@ -1,0 +1,86 @@
+/*
+* Mia
+* April 10, 2019
+* Music
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+    
+/* This is where I changed the font color, size, and type. */
+   
+    font-family: sans-serif;
+    font-size: 87.5%; 
+    
+/* This is where I changed the background color. */
+    
+    background-color: azure
+    
+}
+    
+/* I used the header, main, and footer tags in the HTML to use the CSS to change the colors of the specific sections on the web page. */
+   
+    header {background-color: skyblue}
+    main {background-color: lavenderblush}
+    footer {background-color: paleturquoise}
+
+/* This is where I floated the picture of Ariana Grande so that the text in the body would go to the left of it. */
+    
+    #ariana { float: right}
+
+/* I changed the font size, align, transform, and decoration for h1 here. */
+
+    h1 {
+
+        font-family: cursive;
+        font-size: 150%;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline;
+
+    }
+
+/* I changed the font size and aligh for h2 here. */
+    
+    h2 {
+
+        font-family: cursive;
+        font-size: 125%;
+        font-style: italic;
+        text-align: center;
+    }
+
+/* color name of h1 and h2 */
+
+h1, h2 {
+    
+    color: darkblue;
+}
+
+p {
+    
+    color: darkviolet;
+}
+
+h3 {
+    
+    color: darkturquoise;
+}
+
+a:link { color: deeppink; }
+
+a:visited { color: mediumslateblue; }
+
+a:hover, a:focus { color: rebeccapurple;
+                   font-size: 110%;  
+                   font-style: oblique; }
+
+a:active { color: aqua; }
+
